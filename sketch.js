@@ -41,9 +41,7 @@ function setup(){
 function draw(){
     background(backgroundImg);
     Engine.update(engine);
-    console.log(box2.body.position.x);
-    console.log(box2.body.position.y);
-    console.log(box2.body.angle);
+    
     box1.display();
     box2.display();
     ground.display();
@@ -61,4 +59,5 @@ function draw(){
 
     bird.display();
     platform.display();
+    console.log ("hello posiedon and zeus");
 }
